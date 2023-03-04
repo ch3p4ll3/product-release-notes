@@ -6,12 +6,12 @@ from django.db import models
 
 class ClientIcons(object):
     """
-    Maps to FontAwesome icons - http://fontawesome.io/icons/
+    Maps to Bootstrap Icons - https://icons.getbootstrap.com/
     """
 
-    DESKTOP = "desktop"
+    DESKTOP = "laptop"
     APPLE = "apple"
-    ANDROID = "android"
+    ANDROID = "android2"
 
     CHOICES = (
         (
